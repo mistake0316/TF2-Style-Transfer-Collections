@@ -1,6 +1,5 @@
 # TF2-Style-Transfer-Collections
-Plenty of old sytle transfer methods' github repo did not implement by tensorflow 2.
-Thus I am trying to implement them with tf.keras, tensorflow 2 for understand style transfer & tf2.<br>
+Trying to implement them with tf.keras, tensorflow 2 for understand style transfer & tf2.<br>
 Now I am BFS from [Neural Style Transfer: A Review](https://arxiv.org/abs/1705.04058)<br>
 I will also try to insert some extension in these methods.<br>
 

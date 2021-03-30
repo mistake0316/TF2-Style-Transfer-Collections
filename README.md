@@ -9,7 +9,9 @@ I hope the viewers can also share some good paper to me :)
 ### Optimized Based
 - [x] A Neural Algorithm of Artistic Style<br>-> A Neural Algorithm of Artistic Style.ipynb
 - [x] Controlling Perceptual Factors in Neural Style Transfer<br>-> A Neural Algorithm of Artistic Style.ipynb
-- [ ] Combining Markov Random Fields and Convolutional Neural Networks for Image Synthesis
+- [ ] Combining Markov Random Fields and Convolutional Neural Networks for Image Synthesis<br>
+Prgoressing.
+
 ### 1 Style Model
 - [ ] Perceptual losses for real-time style transfer and super-resolution
 - [ ] Precomputed real-time texture synthesis with markovian generative adversarial networks

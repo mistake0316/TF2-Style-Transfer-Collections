@@ -10,10 +10,11 @@ I hope the viewers can also share some good paper to me :)
 - [x] A Neural Algorithm of Artistic Style<br>-> A Neural Algorithm of Artistic Style.ipynb<br>
 ![](Outputs/Ancestor/Toast_Starry-Night.gif)
 - [x] Controlling Perceptual Factors in Neural Style Transfer<br>-> A Neural Algorithm of Artistic Style.ipynb<br>
-![](Outputs/Ancestor/Toast_Starry-Night_match_to_luminance_only.gif)
+![](Outputs/Ancestor/Toast_Starry-Night_luminance_only.gif)
 ![](Outputs/Ancestor/Toast_Starry-Night_Mosaic_spatial.gif)
-- [ ] Combining Markov Random Fields and Convolutional Neural Networks for Image Synthesis<br>
-Prgoressing.
+- [x] Combining Markov Random Fields and Convolutional Neural Networks for Image Synthesis<br>-> MRFCNN.ipynb<br>
+![](Outputs/MRFCNN/kid_to_small_worlds.gif)
+![](Outputs/MRFCNN/potrait_to_picasso.gif)
 
 ### 1 Style Model
 - [ ] Perceptual losses for real-time style transfer and super-resolution

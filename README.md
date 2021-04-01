@@ -7,8 +7,11 @@ I hope the viewers can also share some good paper to me :)
 
 ## To do list:
 ### Optimized Based
-- [x] A Neural Algorithm of Artistic Style<br>-> A Neural Algorithm of Artistic Style.ipynb
-- [x] Controlling Perceptual Factors in Neural Style Transfer<br>-> A Neural Algorithm of Artistic Style.ipynb
+- [x] A Neural Algorithm of Artistic Style<br>-> A Neural Algorithm of Artistic Style.ipynb<br>
+![](Outputs/Ancestor/Toast_Starry-Night.gif)
+- [x] Controlling Perceptual Factors in Neural Style Transfer<br>-> A Neural Algorithm of Artistic Style.ipynb<br>
+![](Outputs/Ancestor/Toast_Starry-Night_match_to_luminance_only.gif)
+![](Outputs/Ancestor/Toast_Starry-Night_Mosaic_spatial.gif)
 - [ ] Combining Markov Random Fields and Convolutional Neural Networks for Image Synthesis<br>
 Prgoressing.
 

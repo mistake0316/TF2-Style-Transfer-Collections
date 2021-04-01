@@ -97,6 +97,7 @@ def resize(img, target=None, base=None, mul=None):
     
 
 def gen_gif(array, path, frames_cap = 100, show=True):
+  frames_cap = min(frames_cap, len(array))
   imgs = [Image.fromarray((img*255).astype(np.uint8)) for img in array]
   if frames_cap > 1:
     indexes = np.linspace(1,len(imgs)-1,frames_cap-1).astype(np.int)
@@ -106,9 +107,9 @@ def gen_gif(array, path, frames_cap = 100, show=True):
   imgs[0].save(path, save_all=True,
                append_images=[imgs[i] for i in indexes],
                duration=10, loop=1000)
-  
+
+  print(f"save at {path}")
   if show:
-    # print("This display cost some time, please be patient.")
     return display.HTML('<img src="{}">'.format(path))
   
 def blur(image, sigma=1):
@@ -147,3 +148,14 @@ def pyrDown(src, depth):
     rows, cols = src.shape[:2]
     src = cv2.pyrDown(src, dstsize=(cols // 2, rows // 2))
   return src
+
+def plot_images(array, grid_layout=(3,3), title=True):
+  steps = grid_layout[0]*grid_layout[1]
+  for i, ith_step in enumerate(np.linspace(0,len(array)-1,num=steps)):
+    ith_step = ith_step.astype(np.int)
+    plt.subplot(*grid_layout,i+1)
+    if title:
+      plt.title(f"iter : {ith_step}")
+    plt.axis("off")
+    plt.imshow(array[ith_step])
+  plt.show()

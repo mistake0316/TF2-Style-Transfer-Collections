@@ -13,8 +13,8 @@ I hope the viewers can also share some good paper to me :)
 ![](Outputs/Ancestor/Toast_Starry-Night_luminance_only.gif)
 ![](Outputs/Ancestor/Toast_Starry-Night_Mosaic_spatial.gif)
 - [x] Combining Markov Random Fields and Convolutional Neural Networks for Image Synthesis<br>-> MRFCNN.ipynb<br>
-![](Outputs/MRFCNN/kid_to_small_worlds.gif)
-![](Outputs/MRFCNN/potrait_to_picasso.gif)
+![](Outputs/MRFCNN/kid_to_small_worlds.gif)![](Outputs/MRFCNN/kid_to_small_worlds_MATCH.gif)<br>
+![](Outputs/MRFCNN/potrait_to_picasso.gif)![](Outputs/MRFCNN/potrait_to_picasso_MATCH.gif)<br>
 
 ### 1 Style Model
 - [ ] Perceptual losses for real-time style transfer and super-resolution

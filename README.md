@@ -18,7 +18,8 @@ I hope the viewers can also share some good paper to me :)
 
 ### 1 Style Model
 - [ ] Perceptual losses for real-time style transfer and super-resolution
-- [ ] Precomputed real-time texture synthesis with markovian generative adversarial networks
+- [ ] Precomputed real-time texture synthesis with markovian generative adversarial networks<br>
+Processing.
 ### N Style Model
 - [ ] A learned representation for artistic style
 - [ ] Diversified texture synthesis with feed-forward networks

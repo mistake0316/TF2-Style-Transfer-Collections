@@ -24,7 +24,7 @@ def _vgg(depth, padding_method="reflect"):
       config = l.get_config()
       config["padding"] = "valid"
       nl = l.from_config(config)
-      x = tf.pad(x, [[0,0], [1,1], [1,1], [0,0]], mode="reflect")
+      x = tf.pad(x, [[0,0], [1,1], [1,1], [0,0]], mode="SYMMETRIC", name=l.name+"_pad")
       x = nl(x)
       for wn, w in zip(nl.weights, l.weights):
         wn.assign(w)
@@ -149,13 +149,13 @@ def pyrDown(src, depth):
     src = cv2.pyrDown(src, dstsize=(cols // 2, rows // 2))
   return src
 
-def plot_images(array, grid_layout=(3,3), title=True):
+def plot_images(array, grid_layout=(3,3), str_format="iter : {}", title=True):
   steps = grid_layout[0]*grid_layout[1]
   for i, ith_step in enumerate(np.linspace(0,len(array)-1,num=steps)):
     ith_step = ith_step.astype(np.int)
     plt.subplot(*grid_layout,i+1)
     if title:
-      plt.title(f"iter : {ith_step}")
+      plt.title(str_format.format(ith_step))
     plt.axis("off")
     plt.imshow(array[ith_step])
   plt.show()
